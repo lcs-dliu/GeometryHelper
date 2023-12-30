@@ -11,7 +11,7 @@ import SwiftUI
 struct Separation_of_concernsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CirleView()
         }
     }
 }

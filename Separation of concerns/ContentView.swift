@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+     // MARK: Stored properties
+    @State var radious = 10.0
+    
+    // MARK: 
+
         }
+
         .padding()
     }
 }
